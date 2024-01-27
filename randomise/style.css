@@ -1,0 +1,139 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     /* background-color: rgb(210, 108, 232); */
+     background-image: url("https://happycattools.com/wp-content/uploads/2021/11/random-number-generator-no-repeats.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-clip: border-box;
+
+}
+
+.random-conteiner {
+     width: 40%;
+     /* background-color: rgb(66, 209, 183); */
+     background-image: url("https://miro.medium.com/v2/resize:fit:640/0*aWfhTebzFUOWgT01.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-clip: border-box;
+     min-width: 350px;
+     min-height: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     padding: 20px;
+     border-radius: 15px;
+     position: absolute;
+     left: 50%;
+     top: -300px;
+     transition: 1s all;
+     transform: translate(-50%, -50%);
+}
+
+
+
+button {
+
+     padding: 10px 12px;
+     font-size: 20px;
+     border: none;
+     border-radius: 6px;
+     color: black;
+     font-weight: bolder;
+     font-size: larger;
+     cursor: pointer;
+     /* background-color: rgb(192, 217, 46);
+      */
+
+     background-image: url("https://www.shutterstock.com/image-vector/mathematics-background-different-numbers-random-260nw-531598111.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-clip: border-box;
+}
+
+#start-game-btn {
+     position: fixed;
+     padding-left: -51px;
+     top: 230px;
+     left: 30px;
+     width: 110px;
+     padding: 0;
+     height: 60px;
+     background-image: url("https://png.pngtree.com/png-clipart/20190118/ourmid/pngtree-game-button-technology-button-colorful-technology-button-source-file-start-button-png-image_462025.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-clip: border-box;
+   color: greenyellow;
+}
+.res{
+     position: fixed;
+   padding-left: -51px;
+     top: 300px;
+     left: 30px;
+     width: 110px;
+     padding: 0;
+     height: 60px;
+  background-image: url("https://png.pngtree.com/png-clipart/20190118/ourmid/pngtree-game-button-technology-button-colorful-technology-button-source-file-start-button-png-image_462025.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+color: greenyellow;
+}
+.restartBtt{
+   
+   text-decoration: none;
+    color: red;
+font-size: 20px;
+font: bolder;
+
+}
+
+.show-modal {
+     top: 50%;
+}
+
+.random-form {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     padding: 20px;
+
+}
+
+.random-form input {
+     padding: 10px;
+     outline: none;
+     width: 100%;
+}
+
+.attemps {
+     color: white;
+     transition: 0.4s linear;
+}
+
+.attemps-blur {
+     font-size: 40px;
+     color: red;
+}
+
+input {
+     border: none;
+     border-radius: 16px;
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+     color: white;
+}
